@@ -1,0 +1,14 @@
+
+services:
+  node01:
+    build: ./
+    container_name: node01
+
+  node02:
+    build: ./
+    container_name: node02
+
+  node03:
+    build: ./
+    container_name: node03
+
